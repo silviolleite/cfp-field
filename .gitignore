@@ -1,0 +1,12 @@
+.env
+.idea
+.cpffield
+*pyc
+__pycache__
+*~
+.so
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]

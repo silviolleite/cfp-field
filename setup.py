@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-cpffield',
-    version='0.1',
+    version='0.1.1',
 
     description='CPF Field to use in Django Model Form',
     url='https://github.com/silviolleite/cfp-field',

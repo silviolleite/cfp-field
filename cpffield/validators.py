@@ -11,6 +11,7 @@ cpf_digits_re = re.compile(r'^(\d{3})\.(\d{3})\.(\d{3})-(\d{2})$')
 
 
 def validate_cpf(value):
+    original_value = value[:]
     if not value.isdigit():
         cpf = cpf_digits_re.search(value)
         if cpf:
@@ -21,3 +22,4 @@ def validate_cpf(value):
     if len(value) != 11:
         raise ValidationError(default_error_messages['max-digits'], 'length')
 
+    return original_value

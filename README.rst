@@ -3,7 +3,7 @@ CPF Field to use in Django Model Form
 .. image:: https://travis-ci.org/silviolleite/cfp-field.svg?branch=master
     :target: https://travis-ci.org/silviolleite/cfp-field
 
-.. image:: https://img.shields.io/pypi/v/python-decouple.svg
+.. image:: https://img.shields.io/pypi/v/django-cpffield.svg
     :target: https://pypi.python.org/pypi/django-cpffield/
     :alt: Latest PyPI version
 

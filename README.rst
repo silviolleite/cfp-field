@@ -1,6 +1,6 @@
 CPF Field to use in Django Model Form
 =====================================
-
+[![Build Status](https://travis-ci.org/silviolleite/cpf-field.svg?branch=master)](https://travis-ci.org/silviolleite/cpf-field)
 *cfp-field* This is a test implementatipon of the CPF Validation as part of
 the "Mão na Massa" proposal of the 4th module of Welcome to the Django
 training (http://welcometothedjango.com.br/).
